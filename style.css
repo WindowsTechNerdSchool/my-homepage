@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+a {
+    font-size: 27px;
+}
