@@ -16,10 +16,7 @@ body {
 
 a {
     font-size: 27px;
+    display: inline-block; /* Required to allow top/bottom margins */
+    margin: 0.67em 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Safely separates the elements */
-}
