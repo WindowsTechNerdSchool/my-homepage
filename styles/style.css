@@ -18,6 +18,9 @@ a {
     font-size: 27px;
     display: inline-block; /* Required to allow top/bottom margins */
     margin: 0.67em 0;
+    color:white;
 }
 
-
+p {
+    font-size: 27px;
+}    
