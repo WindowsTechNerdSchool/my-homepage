@@ -1,7 +1,6 @@
-# YouTube videos for nerds like me
+# My "amazing" homepage
 
-If you are seeing this, please go away.
-This is just the repo that is using github pages to host the actual website
-You can vist it my going to the deployments on the left or bottom for mobile web users or go to it via the link: windowstechnerdschool.github.io/youtube-vids-for-me
-
-Also note that this website is kinda made for me, but you can still go ig.
+This is a homepage I made because I was bored
+If you have managed to get to this repo, its useless
+If you would like to go the the homepage, then go to windowstechnerdschool.github.io/my-homepage
+Thank you.
