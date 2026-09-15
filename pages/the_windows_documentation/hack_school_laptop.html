@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to hack a school laptop</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="icon" type="image/pmg" href="../../images/icons8-windows-10-32.png">
+</head>
+<body>
+    <div class="main_div">
+        <h1>How to hack a school laptop or and kind of restricted windows device</h1>
+        <p>Welcome to the guide of how to hack a school laptop or and other kind of restricted device running windows! To get started, you have to hold shift and click the restart button on your device (Shift + Restart)</p>
+        <img src="https://support.microsoft.com/images/en-us/d228d3a2-f25a-436a-8a8b-ba99be0ea288" alt="Restart button preview">
+        <p>After you hold it, your windows device will restart and you will end up in a special blue screen with a bunch of options for advanced users.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBHPLNgkDYbHyC7AQ2MTmNNt6GG-6s5EgJYs0gfDeKHw&s=10" alt="Preview of advanced restart options">
+        <p>After you get into the special menu, you have to go to Troubleshoot -> Advanced Options -> Command Prompt</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBHPLNgkDYbHyC7AQ2MTmNNt6GG-6s5EgJYs0gfDeKHw&s=10" alt="Preview of advanced restart options">
+        <img src="https://www.thewindowsclub.com/wp-content/uploads/2015/06/Change-defaults-or-choose-other-options-6.jpg" alt="Troubleshoot">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFwl7K3HqH9PwHvphP5E8RuxlrcuzkM6Ln7G8t4FSeQ&s=10" alt="Advanced options">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6CaSdjrWbtN-DtEI3nzy-Hw9aJIKGalfAcmfaR4UXSg&s=10" alt="Command Prompt">
+        <p>When you click on Command Prompt, you should get straight into a black screen with text. If you are asked for a password, follow the alternitive guide for your situation at the bottom of this page.</p>
+        <p>When you get into the Commannd Prompt, type in the following commands below:</p>
+        <a>cd C:\Windows\System32</a>
+        <a>copy utilman.exe utilman2.exe</a>
+        <a>del utilman.exe</a>
+        <a>copy cmd.exe utilman.exe</a>
+        <a>wpeutil reboot</a>
+        <p>The "wpeutil reboot" command will reboot your device back into normal windows. Once you are in, get to the login screen and click the Accessibility button at the bottom right conner of your screen.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP8mxZgu_lSH5fBrgeJ_OntWzxBJn0q3SQI5qx9y-qQ&s=10" alt="Image of Accessibility button">
+        <p>Once you are in, it should open Command Prompt with administrator premissions.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5jwrtAuf1ynyB5AlM2vjdZW3Ug56zvf5KmsQyVwCpQA&s=10" alt="Image of Command Prompt opened by hacking the accessibility button on windows login screen">
+        <p>Once you enter the Command Prompt on your login screen, you have to run the following commands below:</p>
+        <a>net user YOUR_USERNAME YOUR_PASSWORD</a>
+        <a>net localgroup administrators YOUR_USERNAME /add</a>
+        <p>Make sure to replace YOUR_USERNAME and YOUR_PASSWORD with your username and password for this new local administrator account that you are going to make.</p>
+        <p>Once you type those two lines of code, close Command Prompt and go to Other User at the bottom-left of your screen.</p>
+        <p>Once you get to Other User, use the following credentials to login below:</p>
+        <a>Username: .\YOUR_USERNAME</a>
+        <a>Password: YOUR_PASSWORD</a>
+        <p>After you login with those credentials, your done:)</p>
+        <a href="home.html"><- Go back to the Windows Documentation</a>
+</body>
+</html>
