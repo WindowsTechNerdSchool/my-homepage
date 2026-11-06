@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Homepage?</title>
+    <title>Sidebar Layout</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" type="image/pmg" href="images/mainicon.png">
 </head>
 <body>
-    <div class="main_div">
-        <h1>My "amazing" homepage</h1>
-        <a>This is where I shove useless stuff into, below is everything I have here.</a>
-        <a href="pages/scratch.html">My useless scratch projects</a>
-        <a href="pages/youtube.html">My fav youtube videos</a>
-        <a href="pages/the_windows_documentation/home.html">The Windows Documentation (Still in the works!)</a>
+
+    <!-- Changed class here to match the CSS container -->
+    <div class="page-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">My Homepage</div>
+            <nav class="sidebar-nav">
+                <!-- Cleaned up listless links -->
+                <a href="index.html" class="active">Dashboard</a>
+                <a href="#">Profile</a>
+                <a href="#">Analytics</a>
+                <a href="#">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h1>WindowsTechNerd's homepage</h1>
+            <p>Welcome to my homepage (continute later.)</p>
+        </main>
     </div>
+
 </body>
 </html>

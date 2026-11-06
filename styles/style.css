@@ -1,30 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-.main_div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: Roboto, sans-serif;
+/* Reset margins and defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    background-color: #121212;
-    color: white;
+/* Flexbox container to line up sidebar and content horizontally */
+.page-container {
+  display: flex;
+  min-height: 100vh;
 }
 
-a {
-    font-size: 27px;
-    display: inline-block; /* Required to allow top/bottom margins */
-    margin: 0.67em 0;
-    color:white;
+/* Sidebar Styling */
+.sidebar {
+  width: 260px;
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0; /* Prevents the sidebar from squishing */
 }
 
-p {
-    font-size: 27px;
-}    
+.sidebar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
 
-img {
-    margin: 0.67em 0;
+/* Updated to style the direct anchor tags instead of old list tags */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Replaces li margin-bottom for spacing */
+}
+
+/* Sidebar Links */
+.sidebar-nav a {
+  display: block;
+  color: #b0b0cc;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover and Active State Colors */
+.sidebar-nav a:hover, 
+.sidebar-nav a.active {
+  background-color: #0f3460;
+  color: #fff;
+}
+
+/* Main Content Area Styling */
+.main-content {
+  flex-grow: 1; /* Takes up all remaining horizontal space */
+  padding: 40px;
+  background-color: #121212;
+  color: white;
+}
+
+/* Responsive adjustment for tablets/mobile screens */
+@media (max-width: 768px) {
+  .page-container {
+    flex-direction: column; /* Stacks sidebar over content on small screens */
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
 }
