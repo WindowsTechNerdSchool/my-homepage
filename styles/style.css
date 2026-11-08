@@ -12,6 +12,10 @@
   min-height: 100vh;
 }
 
+p {
+  font-size: 24px;
+}
+
 /* Sidebar Styling */
 .sidebar {
   width: 260px;
