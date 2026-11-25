@@ -12,10 +12,6 @@
   min-height: 100vh;
 }
 
-p {
-  font-size: 24px;
-}
-
 /* Sidebar Styling */
 .sidebar {
   width: 260px;
@@ -64,6 +60,7 @@ p {
   padding: 40px;
   background-color: #121212;
   color: white;
+  font-size: 0.95rem;
 }
 
 /* Responsive adjustment for tablets/mobile screens */
